@@ -1,0 +1,16 @@
+{
+  "alarms": [
+    {
+      "name": "HighCPUAlarm",
+      "description": "Alarm when CPU utilization exceeds 80%",
+      "metricName": "CPUUtilization",
+      "namespace": "AWS/EC2",
+      "statistic": "Average",
+      "comparisonOperator": "GreaterThanThreshold",
+      "threshold": 80,
+      "period": 300,
+      "evaluationPeriods": 2,
+      "alarmActions": ["arn:aws:sns:us-east-1:123456789012:MyTopic"]
+    }
+  ]
+}
