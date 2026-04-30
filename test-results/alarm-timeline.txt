@@ -1,0 +1,15 @@
+2026-04-30 10:25:38
+State update
+Alarm updated from In alarm to OK.
+2026-04-30 10:21:38
+Action
+Successfully executed action arn:aws:sns:eu-central-1:218852529000:ec2-alerts
+2026-04-30 10:21:38
+State update
+Alarm updated from OK to In alarm.
+2026-04-30 09:50:38
+State update
+Alarm updated from Insufficient data to OK.
+2026-04-30 09:49:20
+Configuration update
+Alarm "high-cpu-alarm" created

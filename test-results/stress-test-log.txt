@@ -1,0 +1,36 @@
+[ec2-user@ip-172-31-42-112 ~]$ sudo yum install -y stress
+Amazon Linux 2023 Kernel Livepatch repository                                           261 kB/s |  31 kB     00:00
+Dependencies resolved.
+========================================================================================================================
+ Package                Architecture           Version                                Repository                   Size
+========================================================================================================================
+Installing:
+ stress                 x86_64                 1.0.7-2.amzn2023.0.1                   amazonlinux                  34 k
+
+Transaction Summary
+========================================================================================================================
+Install  1 Package
+
+Total download size: 34 k
+Installed size: 68 k
+Downloading Packages:
+stress-1.0.7-2.amzn2023.0.1.x86_64.rpm                                                  355 kB/s |  34 kB     00:00
+------------------------------------------------------------------------------------------------------------------------
+Total                                                                                   254 kB/s |  34 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                1/1
+  Installing       : stress-1.0.7-2.amzn2023.0.1.x86_64                                                             1/1
+  Running scriptlet: stress-1.0.7-2.amzn2023.0.1.x86_64                                                             1/1
+  Verifying        : stress-1.0.7-2.amzn2023.0.1.x86_64                                                             1/1
+
+Installed:
+  stress-1.0.7-2.amzn2023.0.1.x86_64
+
+Complete!
+
+[ec2-user@ip-172-31-42-112 ~]$ stress --cpu 2 --timeout 600s
+stress: info: [26193] dispatching hogs: 2 cpu, 0 io, 0 vm, 0 hdd

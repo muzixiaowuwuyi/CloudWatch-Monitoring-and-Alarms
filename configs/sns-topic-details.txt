@@ -1,0 +1,11 @@
+AWS SNS Topic Details
+---------------------
+Topic Name: ec2-alerts
+Topic ARN: arn:aws:sns:eu-central-1:218852529000:ec2-alerts
+Region: eu-central-1
+
+Subscription Info:
+- Protocol: email
+- Endpoint: guangzhengli.kevin@gmail.com
+- Subscription ID: arn:aws:sns:eu-central-1:218852529000:ec2-alerts:74d5ec65-8991-436b-8090-97e45f346490
+- Status: Confirmed
